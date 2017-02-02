@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44D44667DD132D4AC382B061 /* Pods_Yantify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D46014D3BCE86576C097287 /* Pods_Yantify.framework */; };
+		54448201C389797E525AABB3 /* Pods_YantifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B646C37BA4287D425BEB2F /* Pods_YantifyUITests.framework */; };
 		885ED26C1E4306E800352301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885ED26B1E4306E800352301 /* AppDelegate.swift */; };
 		885ED26E1E4306E800352301 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885ED26D1E4306E800352301 /* FirstViewController.swift */; };
 		885ED2701E4306E800352301 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885ED26F1E4306E800352301 /* SecondViewController.swift */; };
@@ -15,6 +17,8 @@
 		885ED2781E4306E800352301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885ED2761E4306E800352301 /* LaunchScreen.storyboard */; };
 		885ED2831E4306E800352301 /* YantifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885ED2821E4306E800352301 /* YantifyTests.swift */; };
 		885ED28E1E4306E800352301 /* YantifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885ED28D1E4306E800352301 /* YantifyUITests.swift */; };
+		885ED29C1E43418A00352301 /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885ED29B1E43418A00352301 /* AudioVC.swift */; };
+		BA37EBD8FA21250AE80AD683 /* Pods_YantifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD4BE47B37046C131F80490 /* Pods_YantifyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28B646C37BA4287D425BEB2F /* Pods_YantifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YantifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49335E163CAC9EF1015BAA18 /* Pods-YantifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YantifyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YantifyUITests/Pods-YantifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		609D4A08C60F51CF70B455F2 /* Pods-YantifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YantifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YantifyTests/Pods-YantifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D46014D3BCE86576C097287 /* Pods_Yantify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yantify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		885ED2681E4306E800352301 /* Yantify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yantify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		885ED26B1E4306E800352301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		885ED26D1E4306E800352301 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		885ED2891E4306E800352301 /* YantifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YantifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		885ED28D1E4306E800352301 /* YantifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YantifyUITests.swift; sourceTree = "<group>"; };
 		885ED28F1E4306E800352301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885ED29B1E43418A00352301 /* AudioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
+		8B07F98C0EDB99978954CE04 /* Pods-Yantify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yantify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yantify/Pods-Yantify.release.xcconfig"; sourceTree = "<group>"; };
+		8DD4BE47B37046C131F80490 /* Pods_YantifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YantifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D0282CD35BA984A208A808 /* Pods-YantifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YantifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YantifyTests/Pods-YantifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEBA5994200627CEBAE26F3A /* Pods-YantifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YantifyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YantifyUITests/Pods-YantifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4D9D16A3A46C724717A663B /* Pods-Yantify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yantify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yantify/Pods-Yantify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D44667DD132D4AC382B061 /* Pods_Yantify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA37EBD8FA21250AE80AD683 /* Pods_YantifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54448201C389797E525AABB3 /* Pods_YantifyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				885ED2811E4306E800352301 /* YantifyTests */,
 				885ED28C1E4306E800352301 /* YantifyUITests */,
 				885ED2691E4306E800352301 /* Products */,
+				A7A42B210AC4DC012E047050 /* Pods */,
+				91E6D74FA6E1B6C27D71EA87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +125,7 @@
 				885ED2741E4306E800352301 /* Assets.xcassets */,
 				885ED2761E4306E800352301 /* LaunchScreen.storyboard */,
 				885ED2791E4306E800352301 /* Info.plist */,
+				885ED29B1E43418A00352301 /* AudioVC.swift */,
 			);
 			path = Yantify;
 			sourceTree = "<group>";
@@ -128,6 +148,29 @@
 			path = YantifyUITests;
 			sourceTree = "<group>";
 		};
+		91E6D74FA6E1B6C27D71EA87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D46014D3BCE86576C097287 /* Pods_Yantify.framework */,
+				8DD4BE47B37046C131F80490 /* Pods_YantifyTests.framework */,
+				28B646C37BA4287D425BEB2F /* Pods_YantifyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A42B210AC4DC012E047050 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4D9D16A3A46C724717A663B /* Pods-Yantify.debug.xcconfig */,
+				8B07F98C0EDB99978954CE04 /* Pods-Yantify.release.xcconfig */,
+				91D0282CD35BA984A208A808 /* Pods-YantifyTests.debug.xcconfig */,
+				609D4A08C60F51CF70B455F2 /* Pods-YantifyTests.release.xcconfig */,
+				BEBA5994200627CEBAE26F3A /* Pods-YantifyUITests.debug.xcconfig */,
+				49335E163CAC9EF1015BAA18 /* Pods-YantifyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 885ED2921E4306E800352301 /* Build configuration list for PBXNativeTarget "Yantify" */;
 			buildPhases = (
+				4959B0D970AD0645CD12DE82 /* [CP] Check Pods Manifest.lock */,
 				885ED2641E4306E800352301 /* Sources */,
 				885ED2651E4306E800352301 /* Frameworks */,
 				885ED2661E4306E800352301 /* Resources */,
+				9E182D8B14F7B87E7C4EC0DA /* [CP] Embed Pods Frameworks */,
+				13B1EB6EB9CE0D8B1BA07487 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 885ED2951E4306E800352301 /* Build configuration list for PBXNativeTarget "YantifyTests" */;
 			buildPhases = (
+				175B0C3647B643BFC2C5EC0F /* [CP] Check Pods Manifest.lock */,
 				885ED27A1E4306E800352301 /* Sources */,
 				885ED27B1E4306E800352301 /* Frameworks */,
 				885ED27C1E4306E800352301 /* Resources */,
+				AE6FADB26A34B9CC3DEB5121 /* [CP] Embed Pods Frameworks */,
+				C90F6EBCB3921CB5769AAD4A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 885ED2981E4306E800352301 /* Build configuration list for PBXNativeTarget "YantifyUITests" */;
 			buildPhases = (
+				7F8ADADC0BD4E5994F671C68 /* [CP] Check Pods Manifest.lock */,
 				885ED2851E4306E800352301 /* Sources */,
 				885ED2861E4306E800352301 /* Frameworks */,
 				885ED2871E4306E800352301 /* Resources */,
+				09C422CF5705AAF547B24858 /* [CP] Embed Pods Frameworks */,
+				6DB0BD9726BCB4DAF521DCC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +309,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09C422CF5705AAF547B24858 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YantifyUITests/Pods-YantifyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13B1EB6EB9CE0D8B1BA07487 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yantify/Pods-Yantify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		175B0C3647B643BFC2C5EC0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4959B0D970AD0645CD12DE82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB0BD9726BCB4DAF521DCC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YantifyUITests/Pods-YantifyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F8ADADC0BD4E5994F671C68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E182D8B14F7B87E7C4EC0DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yantify/Pods-Yantify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6FADB26A34B9CC3DEB5121 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YantifyTests/Pods-YantifyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90F6EBCB3921CB5769AAD4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YantifyTests/Pods-YantifyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		885ED2641E4306E800352301 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +455,7 @@
 				885ED2701E4306E800352301 /* SecondViewController.swift in Sources */,
 				885ED26C1E4306E800352301 /* AppDelegate.swift in Sources */,
 				885ED26E1E4306E800352301 /* FirstViewController.swift in Sources */,
+				885ED29C1E43418A00352301 /* AudioVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +603,7 @@
 		};
 		885ED2931E4306E800352301 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D9D16A3A46C724717A663B /* Pods-Yantify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Yantify/Info.plist;
@@ -424,6 +616,7 @@
 		};
 		885ED2941E4306E800352301 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B07F98C0EDB99978954CE04 /* Pods-Yantify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Yantify/Info.plist;
@@ -436,6 +629,7 @@
 		};
 		885ED2961E4306E800352301 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D0282CD35BA984A208A808 /* Pods-YantifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +644,7 @@
 		};
 		885ED2971E4306E800352301 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609D4A08C60F51CF70B455F2 /* Pods-YantifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +659,7 @@
 		};
 		885ED2991E4306E800352301 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBA5994200627CEBAE26F3A /* Pods-YantifyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = YantifyUITests/Info.plist;
@@ -477,6 +673,7 @@
 		};
 		885ED29A1E4306E800352301 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49335E163CAC9EF1015BAA18 /* Pods-YantifyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = YantifyUITests/Info.plist;
@@ -507,6 +704,7 @@
 				885ED2941E4306E800352301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		885ED2951E4306E800352301 /* Build configuration list for PBXNativeTarget "YantifyTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +713,7 @@
 				885ED2971E4306E800352301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		885ED2981E4306E800352301 /* Build configuration list for PBXNativeTarget "YantifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +722,7 @@
 				885ED29A1E4306E800352301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

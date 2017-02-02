@@ -1,0 +1,6 @@
+framework module Pods_YantifyUITests {
+  umbrella header "Pods-YantifyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
