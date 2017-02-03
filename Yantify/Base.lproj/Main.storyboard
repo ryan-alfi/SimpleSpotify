@@ -118,6 +118,14 @@
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-0s-zub">
+                                            <rect key="frame" x="164" y="535" width="46" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Button"/>
+                                            <connections>
+                                                <action selector="pausePlay:" destination="pfJ-Ey-Abk" eventType="touchUpInside" id="OmD-8z-dKI"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Hsd-aJ-MJi" firstAttribute="top" secondItem="jYR-q1-9Sn" secondAttribute="top" constant="150" id="MgW-6a-bwQ"/>
@@ -146,6 +154,7 @@
                     <connections>
                         <outlet property="background" destination="SKg-eB-9xf" id="W0C-6e-5f2"/>
                         <outlet property="mainImageView" destination="Hsd-aJ-MJi" id="LbG-Jn-kUt"/>
+                        <outlet property="playPauseBtn" destination="e8h-0s-zub" id="Jlv-9N-pVM"/>
                         <outlet property="songTitle" destination="aT5-JZ-zUo" id="hdg-na-0Lu"/>
                     </connections>
                 </viewController>
